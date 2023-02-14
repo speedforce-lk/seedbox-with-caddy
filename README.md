@@ -7,6 +7,11 @@ through a [Caddy][caddy] HTTP server.
 [docker-compose]: https://docs.docker.com/compose/
 [transmission]: https://transmissionbt.com/
 [caddy]: https://caddyserver.com/
+## Install
+
+```
+sudo wget https://raw.githubusercontent.com/speedforce-demo/seedbox-with-caddy/main/install.sh; chmod +x install.sh; ./install.sh
+```
 
 ## Usage
 
