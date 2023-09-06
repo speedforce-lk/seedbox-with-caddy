@@ -10,7 +10,7 @@ through a [Caddy][caddy] HTTP server.
 ## Install
 
 ```
-sudo wget https://raw.githubusercontent.com/speedforce-demo/seedbox-with-caddy/main/install.sh; chmod +x install.sh; ./install.sh
+sudo wget https://raw.githubusercontent.com/speedforce-lk/seedbox-with-caddy/main/install.sh; chmod +x install.sh; ./install.sh
 ```
 
 ## Usage
