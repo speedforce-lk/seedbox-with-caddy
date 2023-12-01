@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   transmission:
-    image: linuxserver/transmission:latest
+    image: linuxserver/transmission:2.94-r2-ls35
     volumes:
       - ./transmission/config:/config
       - ./transmission/downloads:/downloads
