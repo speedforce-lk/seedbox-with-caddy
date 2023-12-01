@@ -13,7 +13,7 @@ services:
     env_file: .env
 
   http:
-    image: abiosoft/caddy:latest-no-stats
+    image: abiosoft/caddy:latest
     volumes:
       - ./Caddyfile:/etc/Caddyfile
       # Mount the downloads/ folder into caddy's default sites root (/srv) so
