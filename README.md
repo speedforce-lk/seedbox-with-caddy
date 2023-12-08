@@ -37,10 +37,14 @@ sudo wget https://raw.githubusercontent.com/speedforce-lk/seedbox-with-caddy/mai
 
    If you have a lot of files in your `downloads` folder, it may be helpful to
    use `wget` to recursively grab them all. For example:
-   `wget --user=admin --password=pass --no-parent --recursive http://yourserver/downloads/complete/`.
+   `wget --user=admin --password=pass --no-parent --recursive http://yourserver/downloads/complete/` , 
+
+   or `wget --user=admin --ask-password --no-parent --recursive http://yourserver/downloads/complete/`.
+
+   
 
 
-5. To stop the torrent client and server, press `Ctrl-C` or issue the command:
+6. To stop the torrent client and server, press `Ctrl-C` or issue the command:
    `docker-compose down`.
 
 **Persistence:** To keep the torrent client and web server running even after
